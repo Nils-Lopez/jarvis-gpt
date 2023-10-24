@@ -1,0 +1,14 @@
+{
+    "unknown-action-error": [
+        "Une erreure s'est produite je n'ai pas compris votre demande.",
+        "J'aurias bien aimé mais je n'ai rien compris",
+        "Pardonnez-moi mais je ne saurais accéder à votre requête en l'absence de spécifications supplémentaires."
+    ],
+    "action-error": [
+        "Je n'ai pas pu mener à bien votre mission.."
+    ],
+    "gpt-error": [
+        "Il semble que ma puce neuralink soit cassée.. Veuillez m'en recommander une nouvelle.",
+        "Une visite chez le neurologue s'impose"
+    ]
+}

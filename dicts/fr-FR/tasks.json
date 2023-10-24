@@ -1,0 +1,36 @@
+[
+    {
+        "music": [
+            "musique",
+            "son",
+            "chanson",
+            "instrumental",
+            "musicien",
+            "chant"
+        ],
+        "details": 
+            {
+                "play": [
+                    "mets",
+                    "mettre",
+                    "lancer"
+                ],
+                "stop": [
+                    "coupe",
+                    "arrête",
+                    "pause"
+                ], 
+                "increase-volume": [
+                    "plus fort",
+                    "augmente",
+                    "j'entends pas"
+                ],
+                "decrease-volume": [
+                    "moins fort",
+                    "diminue",
+                    "trop fort"
+                ]
+            }
+        
+    }
+]
