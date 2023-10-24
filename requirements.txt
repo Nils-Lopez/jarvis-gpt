@@ -1,59 +1,237 @@
-boltons @ file:///croot/boltons_1677628692245/work
-brotlipy==0.7.0
-certifi @ file:///croot/certifi_1690232220950/work/certifi
-cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-conda @ file:///croot/conda_1694544150384/work
-conda-content-trust @ file:///tmp/build/80754af9/conda-content-trust_1617045594566/work
-conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1649105784853/work
-contourpy @ file:///opt/conda/conda-bld/contourpy_1663827406301/work
-cryptography @ file:///tmp/build/80754af9/cryptography_1639414572950/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-filelock @ file:///croot/filelock_1672387128942/work
-fonttools==4.25.0
-gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645438755360/work
-idna @ file:///tmp/build/80754af9/idna_1637925883363/work
-importlib-resources @ file:///tmp/build/80754af9/importlib_resources_1625135880749/work
-Jinja2 @ file:///croot/jinja2_1666908132255/work
-jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
-jsonpointer==2.1
-kiwisolver @ file:///croot/kiwisolver_1672387140495/work
-MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
-matplotlib @ file:///croot/matplotlib-suite_1693812469450/work
-mpmath @ file:///croot/mpmath_1690848262763/work
-munkres==1.1.4
-networkx @ file:///croot/networkx_1690561992265/work
-numpy @ file:///croot/numpy_and_numpy_base_1691091611330/work
-packaging @ file:///croot/packaging_1693575174725/work
-Pillow==9.4.0
-pluggy @ file:///tmp/build/80754af9/pluggy_1648024445381/work
-ply==3.11
+aiohttp==3.8.6
+aiosignal==1.3.1
+appnope==0.1.3
+asttokens==2.4.0
+async-timeout==4.0.3
+attrs==23.1.0
+backcall==0.2.0
+beautifulsoup4==4.12.2
+blinker==1.6.3
+cachetools==5.3.1
+certifi==2023.7.22
+charset-normalizer==3.3.1
+click==8.1.7
+decorator==5.1.1
+EasyProcess==1.1
+entrypoint2==1.1
+executing==2.0.0
+Flask==3.0.0
+frozenlist==1.4.0
+google-api-core==2.12.0
+google-auth==2.23.3
+google-cloud-texttospeech==2.14.2
+googleapis-common-protos==1.61.0
+grpcio==1.59.0
+grpcio-status==1.59.0
+h11==0.14.0
+idna==3.4
+itsdangerous==2.1.2
+jedi==0.19.1
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+matplotlib-inline==0.1.6
+MouseInfo==0.1.3
+mss==9.0.1
+multidict==6.0.4
+openai==0.28.1
+outcome==1.3.0
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==10.1.0
+playsound==1.3.0
+prompt-toolkit==3.0.39
+proto-plus==1.22.3
+protobuf==4.24.4
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py3-tts==3.5
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
 PyAudio==0.2.13
-pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
-pyparsing @ file:///opt/conda/conda-bld/pyparsing_1661452539315/work
-PyQt5-sip==12.11.0
-PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+PyAutoGUI==0.9.54
+PyGetWindow==0.0.9
+Pygments==2.16.1
+PyMsgBox==1.0.9
+pyobjc==9.0.1
+pyobjc-core==9.0.1
+pyobjc-framework-Accessibility==9.0.1
+pyobjc-framework-Accounts==9.0.1
+pyobjc-framework-AddressBook==9.0.1
+pyobjc-framework-AdServices==9.0.1
+pyobjc-framework-AdSupport==9.0.1
+pyobjc-framework-AppleScriptKit==9.0.1
+pyobjc-framework-AppleScriptObjC==9.0.1
+pyobjc-framework-ApplicationServices==9.0.1
+pyobjc-framework-AppTrackingTransparency==9.0.1
+pyobjc-framework-AudioVideoBridging==9.0.1
+pyobjc-framework-AuthenticationServices==9.0.1
+pyobjc-framework-AutomaticAssessmentConfiguration==9.0.1
+pyobjc-framework-Automator==9.0.1
+pyobjc-framework-AVFoundation==9.0.1
+pyobjc-framework-AVKit==9.0.1
+pyobjc-framework-AVRouting==9.0.1
+pyobjc-framework-BackgroundAssets==9.0.1
+pyobjc-framework-BusinessChat==9.0.1
+pyobjc-framework-CalendarStore==9.0.1
+pyobjc-framework-CallKit==9.0.1
+pyobjc-framework-CFNetwork==9.0.1
+pyobjc-framework-ClassKit==9.0.1
+pyobjc-framework-CloudKit==9.0.1
+pyobjc-framework-Cocoa==9.0.1
+pyobjc-framework-Collaboration==9.0.1
+pyobjc-framework-ColorSync==9.0.1
+pyobjc-framework-Contacts==9.0.1
+pyobjc-framework-ContactsUI==9.0.1
+pyobjc-framework-CoreAudio==9.0.1
+pyobjc-framework-CoreAudioKit==9.0.1
+pyobjc-framework-CoreBluetooth==9.0.1
+pyobjc-framework-CoreData==9.0.1
+pyobjc-framework-CoreHaptics==9.0.1
+pyobjc-framework-CoreLocation==9.0.1
+pyobjc-framework-CoreMedia==9.0.1
+pyobjc-framework-CoreMediaIO==9.0.1
+pyobjc-framework-CoreMIDI==9.0.1
+pyobjc-framework-CoreML==9.0.1
+pyobjc-framework-CoreMotion==9.0.1
+pyobjc-framework-CoreServices==9.0.1
+pyobjc-framework-CoreSpotlight==9.0.1
+pyobjc-framework-CoreText==9.0.1
+pyobjc-framework-CoreWLAN==9.0.1
+pyobjc-framework-CryptoTokenKit==9.0.1
+pyobjc-framework-DataDetection==9.0.1
+pyobjc-framework-DeviceCheck==9.0.1
+pyobjc-framework-DictionaryServices==9.0.1
+pyobjc-framework-DiscRecording==9.0.1
+pyobjc-framework-DiscRecordingUI==9.0.1
+pyobjc-framework-DiskArbitration==9.0.1
+pyobjc-framework-DVDPlayback==9.0.1
+pyobjc-framework-EventKit==9.0.1
+pyobjc-framework-ExceptionHandling==9.0.1
+pyobjc-framework-ExecutionPolicy==9.0.1
+pyobjc-framework-ExtensionKit==9.0.1
+pyobjc-framework-ExternalAccessory==9.0.1
+pyobjc-framework-FileProvider==9.0.1
+pyobjc-framework-FileProviderUI==9.0.1
+pyobjc-framework-FinderSync==9.0.1
+pyobjc-framework-FSEvents==9.0.1
+pyobjc-framework-GameCenter==9.0.1
+pyobjc-framework-GameController==9.0.1
+pyobjc-framework-GameKit==9.0.1
+pyobjc-framework-GameplayKit==9.0.1
+pyobjc-framework-HealthKit==9.0.1
+pyobjc-framework-ImageCaptureCore==9.0.1
+pyobjc-framework-IMServicePlugIn==9.0.1
+pyobjc-framework-InputMethodKit==9.0.1
+pyobjc-framework-InstallerPlugins==9.0.1
+pyobjc-framework-InstantMessage==9.0.1
+pyobjc-framework-Intents==9.0.1
+pyobjc-framework-IntentsUI==9.0.1
+pyobjc-framework-IOBluetooth==10.0
+pyobjc-framework-IOBluetoothUI==10.0
+pyobjc-framework-IOSurface==9.0.1
+pyobjc-framework-iTunesLibrary==9.0.1
+pyobjc-framework-KernelManagement==9.0.1
+pyobjc-framework-LatentSemanticMapping==9.0.1
+pyobjc-framework-LaunchServices==9.0.1
+pyobjc-framework-libdispatch==9.0.1
+pyobjc-framework-libxpc==10.0
+pyobjc-framework-LinkPresentation==9.0.1
+pyobjc-framework-LocalAuthentication==9.0.1
+pyobjc-framework-LocalAuthenticationEmbeddedUI==9.0.1
+pyobjc-framework-MailKit==9.0.1
+pyobjc-framework-MapKit==9.0.1
+pyobjc-framework-MediaAccessibility==9.0.1
+pyobjc-framework-MediaLibrary==9.0.1
+pyobjc-framework-MediaPlayer==9.0.1
+pyobjc-framework-MediaToolbox==9.0.1
+pyobjc-framework-Metal==9.0.1
+pyobjc-framework-MetalFX==9.0.1
+pyobjc-framework-MetalKit==9.0.1
+pyobjc-framework-MetalPerformanceShaders==9.0.1
+pyobjc-framework-MetalPerformanceShadersGraph==9.0.1
+pyobjc-framework-MetricKit==9.0.1
+pyobjc-framework-MLCompute==9.0.1
+pyobjc-framework-ModelIO==9.0.1
+pyobjc-framework-MultipeerConnectivity==9.0.1
+pyobjc-framework-NaturalLanguage==9.0.1
+pyobjc-framework-NetFS==9.0.1
+pyobjc-framework-Network==9.0.1
+pyobjc-framework-NetworkExtension==9.0.1
+pyobjc-framework-NotificationCenter==9.0.1
+pyobjc-framework-OpenDirectory==9.0.1
+pyobjc-framework-OSAKit==9.0.1
+pyobjc-framework-OSLog==9.0.1
+pyobjc-framework-PassKit==9.0.1
+pyobjc-framework-PencilKit==9.0.1
+pyobjc-framework-PHASE==10.0
+pyobjc-framework-Photos==9.0.1
+pyobjc-framework-PhotosUI==9.0.1
+pyobjc-framework-PreferencePanes==9.0.1
+pyobjc-framework-PushKit==9.0.1
+pyobjc-framework-Quartz==9.0.1
+pyobjc-framework-QuickLookThumbnailing==9.0.1
+pyobjc-framework-ReplayKit==9.0.1
+pyobjc-framework-SafariServices==9.0.1
+pyobjc-framework-SafetyKit==9.0.1
+pyobjc-framework-SceneKit==9.0.1
+pyobjc-framework-ScreenCaptureKit==9.0.1
+pyobjc-framework-ScreenSaver==9.0.1
+pyobjc-framework-ScreenTime==9.0.1
+pyobjc-framework-ScriptingBridge==9.0.1
+pyobjc-framework-SearchKit==9.0.1
+pyobjc-framework-Security==9.0.1
+pyobjc-framework-SecurityFoundation==9.0.1
+pyobjc-framework-SecurityInterface==9.0.1
+pyobjc-framework-ServiceManagement==9.0.1
+pyobjc-framework-SharedWithYou==9.0.1
+pyobjc-framework-SharedWithYouCore==9.0.1
+pyobjc-framework-ShazamKit==9.0.1
+pyobjc-framework-Social==9.0.1
+pyobjc-framework-SoundAnalysis==9.0.1
+pyobjc-framework-Speech==9.0.1
+pyobjc-framework-SpriteKit==9.0.1
+pyobjc-framework-StoreKit==9.0.1
+pyobjc-framework-SyncServices==9.0.1
+pyobjc-framework-SystemConfiguration==9.0.1
+pyobjc-framework-SystemExtensions==9.0.1
+pyobjc-framework-ThreadNetwork==9.0.1
+pyobjc-framework-UniformTypeIdentifiers==9.0.1
+pyobjc-framework-UserNotifications==9.0.1
+pyobjc-framework-UserNotificationsUI==9.0.1
+pyobjc-framework-VideoSubscriberAccount==9.0.1
+pyobjc-framework-VideoToolbox==9.0.1
+pyobjc-framework-Virtualization==9.0.1
+pyobjc-framework-Vision==9.0.1
+pyobjc-framework-WebKit==9.0.1
+pyperclip==1.8.2
+PyRect==0.2.0
+pyscreenshot==3.1
+PyScreeze==0.1.29
+PySocks==1.7.1
 python-dotenv==1.0.0
-pyttsx3==2.90
-requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
-ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016711199/work
-ruamel.yaml @ file:///croot/ruamel.yaml_1666304550667/work
-ruamel.yaml.clib @ file:///croot/ruamel.yaml.clib_1666302247304/work
-sip @ file:///tmp/abs_44cd77b_pu/croots/recipe/sip_1659012365470/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+pytweening==1.0.7
+PyUserInput==0.1.11
+pywhatkit==5.4
+redis==5.0.1
+requests==2.31.0
+rsa==4.9
+rubicon-objc==0.4.7
+selenium==4.14.0
+six==1.16.0
+sniffio==1.3.0
+sortedcontainers==2.4.0
+soupsieve==2.5
 SpeechRecognition==3.10.0
-sympy @ file:///croot/sympy_1668202399572/work
-toml @ file:///tmp/build/80754af9/toml_1616166611790/work
-toolz @ file:///croot/toolz_1667464077321/work
-torch @ file:///croot/pytorch_1686931851744/work
-torchaudio==2.0.2
-torchvision==0.15.2
-tornado @ file:///croot/tornado_1690848263220/work
-tqdm @ file:///opt/conda/conda-bld/tqdm_1647339053476/work
-typing_extensions @ file:///croot/typing_extensions_1690297465030/work
-urllib3 @ file:///opt/conda/conda-bld/urllib3_1643638302206/work
-zipp @ file:///croot/zipp_1672387121353/work
+spotipy==2.23.0
+stack-data==0.6.3
+tqdm==4.66.1
+traitlets==5.11.2
+trio==0.22.2
+trio-websocket==0.11.1
+urllib3==2.0.7
+wcwidth==0.2.8
+Werkzeug==3.0.0
+wikipedia==1.4.0
+wsproto==1.2.0
+yarl==1.9.2

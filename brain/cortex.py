@@ -17,7 +17,7 @@ def understand_sentence (sentence):
                 details = tasks["details"]
                 # Delete found keyword from sentence
                 for keyword in tasks[task_name]:
-                    new_sentence = new_sentence.replace(' ' + keyword + ' ', ' ')
+                    new_sentence = new_sentence.replace(' ' + keyword + ' ', ' ').replace(keyword + " ", "")
     if task != "unknown-action-error":
         # Check for known subtask in subtask list
         for task_spec_name in details:
@@ -30,7 +30,7 @@ def understand_sentence (sentence):
         if isinstance(details, str):
             return task, details, new_sentence
         else:
-            return "gpt"
+            return "gpt", False, False
     else:
-        return "gpt"
+        return "gpt", False, False
         

@@ -4,22 +4,26 @@
             "musique",
             "son",
             "chanson",
+            "playlist",
+            "soundtrack",
             "instrumental",
             "musicien",
             "chant"
         ],
         "details": 
             {
+                "stop": [
+                    "coupe",
+                    "arrête",
+                    "pause",
+                    "stoppe"
+                ], 
                 "play": [
                     "mets",
                     "mettre",
                     "lancer"
                 ],
-                "stop": [
-                    "coupe",
-                    "arrête",
-                    "pause"
-                ], 
+                
                 "increase-volume": [
                     "plus fort",
                     "augmente",
