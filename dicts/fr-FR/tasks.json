@@ -8,7 +8,8 @@
             "soundtrack",
             "instrumental",
             "musicien",
-            "chant"
+            "chant",
+            "mets"
         ],
         "details": 
             {
@@ -21,7 +22,9 @@
                 "play": [
                     "mets",
                     "mettre",
-                    "lancer"
+                    "lancer",
+                    "lance",
+                    "joue"
                 ],
                 
                 "increase-volume": [
